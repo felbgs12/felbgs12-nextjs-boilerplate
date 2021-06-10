@@ -1,3 +1,10 @@
+import SEO from '@/components/SEO/SEO';
+
 export default function Home() {
-  return <h1>Boilerplate</h1>;
+  return (
+    <>
+      <SEO title="Home" />
+      <h1>Boilerplate</h1>
+    </>
+  );
 }
