@@ -1,6 +1,6 @@
 import SEO from '@/components/SEO/SEO';
 
-export default function Home() {
+export default function Home(): JSX.Element {
   return (
     <>
       <SEO title="Home" />

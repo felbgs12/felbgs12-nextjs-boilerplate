@@ -20,8 +20,8 @@ export default createGlobalStyle`
   }
 
   body {
-    background: ${(props) => props.theme.colors.gray900};
-    color: ${(props) => props.theme.colors.white};
+    background: ${props => props.theme.colors.gray900};
+    color: ${props => props.theme.colors.white};
   }
 
   body,

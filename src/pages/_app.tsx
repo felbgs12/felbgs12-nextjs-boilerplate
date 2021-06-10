@@ -1,9 +1,9 @@
 import { ThemeProvider } from 'styled-components';
-import theme from '../styles/theme';
+import { AppProps } from 'next/app';
+import GlobalStyle from '@/styles/GlobalStyle';
+import theme from '@/styles/theme';
 
-import GlobalStyle from '../styles/GlobalStyle';
-
-export default function MyApp({ Component, pageProps }) {
+export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
